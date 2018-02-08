@@ -1,64 +1,36 @@
 baseurl = "/"
 title = "Brighton PostgreSQL Users Group"
-author = "Michael Bryant"
-paginate = 10
-theme = "BluestNight"
-PygmentsCodeFences = true
-PygmentsStyle = "monokai"
-enableRobotsTXT = true
+languageCode = "en-gb"
+paginate = "5" # Number of posts per page
+theme = "mainroad"
+disqusShortname = "" # Enable comments by entering your Disqus shortname
+googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
-[outputs]
-    home = ["HTML", "CSS", "JSON", "RSS"]
-    section = ["HTML", "RSS"]
+
 
 [Params]
-    tagline = "The sea elephants"
-    description = "Elephants by the sea." # Description of your site
+    subtitle = "The sea elephants" # Subtitle of your site
+    description = " This is the brighton postgresql users group website" # Description of your site
+    opengraph = true
+    readmore = false # Show "Read more" button in list if true
+    leftsidebar = false # Move sidebar to the left side if true
     authorbox = false
-    author = "Brighton PostgreSQL"
-    post_navigation = false
-    thumbnail = "img/marvin.png"
-    favicon = "img/marvin.ico"
-    thumbnail_radius = "10%"
+    post_navigation = true
+    postSections = ["post"]
 
-[Params.iubenda]
-    id = ""
-    legal_only = false
-
-[Params.iubenda.pro]
-    enable_pro = false
-    site_id = ""
-    enable_cookie_policy = true
-    disable_footer_link = true
-    prior_consent = true
-
-[Params.background]
-    src = "img/header_hi.jpg"
-    medium_src = "img/header_md.jpg"
-    small_src = "img/header_lo.jpg"
-    fit_width = false
-    tile = false
 
 [Params.widgets]
-    search = true
-    recent_articles = true
-    categories = true
-    tags = true
-    tags_counter = true
-    patreon = ""
-
-[Params.social]
-    github = "orgs/brightonpg/"
-    facebook = "brightonpg/"
-
-[Params.color]
-    page_background = "#e2e2e2"
-    main_background = "#e2e2e2"
-    alt_background = "#e2e2e2"
-    main_text = "#000000"
-    alt_text = "#000000"
-    accent = "#2c8cef"
-    accent_text = "#e2e2e2"
+    search = true # Enable "Search" widget
+    recent_articles = true # Enable "Recent arcticles" widget
+    categories = true # Enable "Categories" widget
+    tags = true # Enable "Tags" widget
+    tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
     
-[menu]
-  
+
+
+[[menu.main]]
+    name = "Blog"
+    pre = "<i class='fa fa-heart'></i>"
+    weight = 2
+    identifier = "blog"
+    url = "/post/"

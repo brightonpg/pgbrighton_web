@@ -10,13 +10,13 @@ The install instructions are [available here](https://gohugo.io/getting-started/
 
 After the binary is installed you should fork this repository and clone it on your computer.
 
-As www.pgbrighton.uk is using the [theme mainroad](https://themes.gohugo.io/mainroad/) you should clone the theme's git in the **subfolder web/themes**.
+As www.pgbrighton.uk is using the [theme mainroad](https://themes.gohugo.io/mainroad/) you should clone the theme's git in the **subfolder web/themes/mainroad**.
 
     e.g.
     cd git/pgbrighton_web/web/
     mkdir themes
     cd themes
-    git clone https://github.com/Vimux/Mainroad.git
+    git clone https://github.com/Vimux/Mainroad.git mainroad
     
 To run the website local step into the web directory and run the hugo server
     

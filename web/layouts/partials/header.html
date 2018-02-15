@@ -26,9 +26,30 @@
 						{{ with .Site.Params.subtitle }}<h2 class="logo__tagline">{{ . }}</h2>{{ end }}
 					</a>
 					<img class="logo__img" src="{{ "logo.jpg" | relURL }}">
-					
-				
+
+
 			</div>
 			{{ partial "menu.html" . }}
+			<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+	<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+	<script>
+	window.addEventListener("load", function(){
+	window.cookieconsent.initialise({
+	  "palette": {
+	    "popup": {
+	      "background": "#eb6c44",
+	      "text": "#ffffff"
+	    },
+	    "button": {
+	      "background": "#f5d948"
+	    }
+	  },
+	  "content": {
+	    "message": "This website use 3rd party cookies for analytics purposes. If you find this message annoying there is a firefox plugin very effective against it.",
+	    "link": "I don't care about cookies",
+	    "href": "https://addons.mozilla.org/en-GB/firefox/addon/i-dont-care-about-cookies/"
+	  }
+	})});
+	</script>
 		</header>
 		<div class="wrapper clearfix">

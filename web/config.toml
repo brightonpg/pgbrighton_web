@@ -27,7 +27,7 @@ googleAnalytics = "UA-51824212-2" # Enable Google Analytics by entering your tra
     tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
     social_twitter = "postgres_btn"
     social_github = "brightonpg"
-    
+
 
 
 [[menu.main]]
@@ -36,11 +36,18 @@ googleAnalytics = "UA-51824212-2" # Enable Google Analytics by entering your tra
     weight = 2
     identifier = "blog"
     url = "/post/"
-    
-    
+
+
 [[menu.main]]
     name = "Youtube channel"
     pre = "<i class='fa fa-heart'></i>"
     weight = 3
     identifier = "youtube"
     url = "https://www.youtube.com/channel/UCgr5Iv9eJYN2Piy9oYkn6jw"
+
+[[menu.main]]
+        name = "Slack"
+        pre = "<i class='fa fa-heart'></i>"
+        weight = 4
+        identifier = "slack"
+        url = "https://pgbrighton.slack.com"

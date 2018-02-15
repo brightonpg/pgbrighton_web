@@ -6,11 +6,12 @@ weight = 11
 +++
 
 We are the Brighton PostgreSQL Users Group.
-
-## What we do
 We do advocacy and promote PostgreSQL as database of choice.
-
 Our goal is to let universities, schools and companies to know about PostgreSQL and how they can take advantage of its features.
+
+![Marvin](/logo.jpg "Marvin")<br/> Marvin is the mascot of the Brighton PostgreSQL Users Group. It was made by [Elena Toma](https://tonkipappero.deviantart.com/), an Italian Talented Lady.
+Please visit her page [https://tonkipappero.deviantart.com/](https://tonkipappero.deviantart.com/) and give her kudos for the amazing work.
+
 
 ## History
 The groups started as a meetup in 2015 and over a period of 2 years produced a number of nice talks, all available on [the youtube channel](https://www.youtube.com/channel/UCgr5Iv9eJYN2Piy9oYkn6jw).

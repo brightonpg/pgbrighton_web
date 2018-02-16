@@ -9,7 +9,7 @@ We are the Brighton PostgreSQL Users Group.
 We do advocacy and promote PostgreSQL as database of choice.
 Our goal is to let universities, schools and companies to know about PostgreSQL and how they can take advantage of its features.
 
-![Marvin](/logo.jpg "Marvin")<br/> Marvin is the mascot of the Brighton PostgreSQL Users Group. It was made by [Elena Toma](https://tonkipappero.deviantart.com/), an Italian Talented Lady.
+![Marvin](/logo.jpg "Marvin")<br/> Marvin is the mascot of the Brighton PostgreSQL Users Group. It was made by [Elena Toma](https://tonkipappero.deviantart.com/), a Talented  Italian  Lady.
 Please visit her page [https://tonkipappero.deviantart.com/](https://tonkipappero.deviantart.com/) and give her kudos for the amazing work.
 
 
@@ -21,5 +21,7 @@ The group is currently under reorganisation in order to resume the activities.
 
 ## How to get involved
 
-Currently we are using [slack](https://pgbrighton.slack.com) to coordinate our the nexts steps.
-Please join us [here](https://pgbrighton.slack.com).
+You can get in touch with us using our [google group](https://groups.google.com/forum/#!forum/brightonpgsql) or
+ joining the [slack chat](https://pgbrighton.slack.com)
+
+ Currently we are in organisation phase so any help/suggestion is very welcome.

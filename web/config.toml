@@ -46,8 +46,16 @@ googleAnalytics = "UA-51824212-2" # Enable Google Analytics by entering your tra
     url = "https://www.youtube.com/channel/UCgr5Iv9eJYN2Piy9oYkn6jw"
 
 [[menu.main]]
-        name = "Slack"
+        name = "Google group"
         pre = "<i class='fa fa-heart'></i>"
         weight = 4
+        identifier = ""
+        url = "https://groups.google.com/forum/#!forum/brightonpgsql"
+
+
+[[menu.main]]
+        name = "Slack"
+        pre = "<i class='fa fa-heart'></i>"
+        weight = 5
         identifier = "slack"
         url = "https://pgbrighton.slack.com"
